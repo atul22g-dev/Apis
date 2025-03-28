@@ -1,0 +1,138 @@
+[
+    {
+        "id": "1",
+        "title": "atual-dev",
+        "subTitle": "github.com",
+        "src": "https://github.com/atual-dev",
+        "logo": "fa-brands fa-github",
+        "logoColor": "#10141c"
+    },
+    {
+        "id": "2",
+        "title": "atual-dev2",
+        "subTitle": "github.com",
+        "src": "https://github.com/atual-dev2",
+        "logo": "fa-brands fa-github",
+        "logoColor": "#10141c"
+    },
+    {
+        "id": "3",
+        "title": "uiverse",
+        "subTitle": "uiverse.io",
+        "src": "https://uiverse.io/",
+        "logo": "fa-brands fa-uikit",
+        "logoColor": "#7f51ff"
+    },
+    {
+        "id": "4",
+        "title": "lofi",
+        "subTitle": "lofi.co",
+        "src": "https://app.lofi.co/",
+        "logo": "fa-solid fa-music",
+        "logoColor": "snow"
+    },
+    {
+        "id": "5",
+        "title": "quickref",
+        "subTitle": "quickref.me",
+        "src": "https://quickref.me/",
+        "logo": "fa-solid fa-code",
+        "logoColor": "snow"
+    },
+    {
+        "id": "6",
+        "title": "getcssscan",
+        "subTitle": "getcssscan.com",
+        "src": "https://getcssscan.com/css-box-shadow-examples/",
+        "logo": "fa-solid fa-code",
+        "logoColor": "snow"
+    },
+    {
+        "id": "7",
+        "title": "flukeout",
+        "subTitle": "flukeout.github.io",
+        "src": "https://flukeout.github.io/",
+        "logo": "fa-solid fa-code",
+        "logoColor": "snow"
+    },
+    {
+        "id": "8",
+        "title": "react-hook-form",
+        "subTitle": "react-hook-form.com",
+        "src": "https://www.react-hook-form.com/",
+        "logo": "fa-brands fa-react",
+        "logoColor": "#081229"
+    },
+    {
+        "id": "9",
+        "title": "codecombat",
+        "subTitle": "codecombat.com",
+        "src": "https://codecombat.com/",
+        "logo": "fa-duotone fa-game-console-handheld",
+        "logoColor": "#f4d914"
+    },
+    {
+        "id": "10",
+        "title": "codecombat",
+        "subTitle": "flukeout.github.io",
+        "src": "https://flukeout.github.io/",
+        "logo": "fa-duotone fa-game-console-handheld",
+        "logoColor": "#f4d914"
+    },
+    {
+        "id": "11",
+        "title": "flexboxfroggy",
+        "subTitle": "flexboxfroggy.com",
+        "src": "https://flexboxfroggy.com/",
+        "logo": "fa-duotone fa-game-console-handheld",
+        "logoColor": "#f4d914"
+    },
+    {
+        "id": "12",
+        "title": "checkio",
+        "subTitle": "checkio.org",
+        "src": "https://checkio.org/",
+        "logo": "fa-duotone fa-game-console-handheld",
+        "logoColor": "#f4d914"
+    },
+    {
+        "id": "13",
+        "title": "flexboxdefense",
+        "subTitle": "flexboxdefense.com",
+        "src": "http://www.flexboxdefense.com/",
+        "logo": "fa-duotone fa-game-console-handheld",
+        "logoColor": "#f4d914"
+    },
+    {
+        "id": "14",
+        "title": "codingame",
+        "subTitle": "codingame.com",
+        "src": "https://www.codingame.com/start/",
+        "logo": "fa-duotone fa-game-console-handheld",
+        "logoColor": "#f4d914"
+    },
+    {
+        "id": "15",
+        "title": "neumorphism",
+        "subTitle": "neumorphism.io",
+        "src": "https://neumorphism.io/",
+        "logo": "fa-duotone fa-box",
+        "logoColor": "#2b54e5"
+    },
+    {
+        "id": "16",
+        "title": "lordicon",
+        "subTitle": "lordicon.com",
+        "src": "https://lordicon.com/",
+        "logo": "fa-solid fa-icons",
+        "logoColor": "#08c18a"
+    },
+    {
+        "id": "17",
+        "title": "bg.ibelick",
+        "subTitle": "bg.ibelick.com",
+        "src": "https://bg.ibelick.com/",
+        "logo": "fa-solid fa-paint-roller",
+        "logoColor": "black"
+    }
+]
