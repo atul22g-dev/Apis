@@ -48,5 +48,10 @@
         "id": 11,
         "name": "Apis",
         "src": "https://atualapis.pages.dev/ProjectsApis/Apis.json"
+    },
+    {
+        "id": 11,
+        "name": "Wallpapers",
+        "src": "https://atualapis.pages.dev/Wallpapers/index.json"
     }
 ]
