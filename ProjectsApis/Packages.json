@@ -2,5 +2,9 @@
     {
         "name": "fontawesome6pro",
         "src": "https://www.npmjs.com/package/fontawesome6pro"
+    },
+    {
+        "name": "create-new-project",
+        "src": "https://www.npmjs.com/package/@atul.dev/create-new-project"
     }
 ]
