@@ -182,5 +182,21 @@
         "demo": "https://main--atugatran-website-builder.netlify.app/",
         "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
         "img": "https://64.media.tumblr.com/234f44dcb227f6ed77971038874485ac/5d10f75050b73f70-37/s1280x1920/f57de307ce5e347ff7bc8d770da8b0580df0403e.pnj"
+    },
+    {
+        "id": "24",
+        "title": "Anime-Recommendation-System",
+        "src": "https://github.com/atul22g-dev/Anime-Recommendation-System",
+        "demo": "https://atual-anime-recommendation-system.streamlit.app/",
+        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
+        "img": "https://64.media.tumblr.com/568eb9ee779d3003e7c7bcfd4b0a0832/6ce18162a9e4ca44-0d/s1280x1920/f3a9953802fd74eb0334ef075b88b2885027958b.pnj"
+    },
+    {
+        "id": "24",
+        "title": "Anime-Recommendation-System-Model",
+        "src": "https://github.com/atul22g-dev/Anime-Recommendation-System-Model",
+        "demo": "https://atual-anime-recommendation-system.streamlit.app/",
+        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
+        "img": "https://64.media.tumblr.com/568eb9ee779d3003e7c7bcfd4b0a0832/6ce18162a9e4ca44-0d/s1280x1920/f3a9953802fd74eb0334ef075b88b2885027958b.pnj"
     }
 ]
