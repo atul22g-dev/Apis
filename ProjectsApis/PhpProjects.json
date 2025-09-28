@@ -46,5 +46,13 @@
         "demo": "https://atul22g.alwaysdata.net/restapi/",
         "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
         "img": "https://64.media.tumblr.com/a941e7ed5c48dd02de5b999e64661c13/d9307b97b25c2564-b7/s2048x3072/4544a04d83452c0e56fe0f18eeca325e1177dc96.pnj"
+    },
+    {
+        "id": 7,
+        "title": "Dashboard",
+        "src": "https://github.com/atul22g-dev/Dashboard",
+        "demo": "https://atul22g.alwaysdata.net/Dashboard",
+        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
+        "img": "https://64.media.tumblr.com/3cd527ced2c990f034d0f7873a001da9/62cb33654456aadb-87/s640x960/c1ebfd58c96a465c4eac5b6892fc43744ab7196e.pnj"
     }
 ]
