@@ -256,14 +256,6 @@
         "img": "https://64.media.tumblr.com/ed64e22641f381aab4304060c1a043f3/f2cf1e36c65315fb-f4/s2048x3072/6283ce2c84757d20376bc45d32405b7a4afd0c8c.pnj"
     },
     {
-        "id": 33,
-        "title": "html-to-pdf-generator",
-        "desc": "html-to-pdf-generator",
-        "src": "https://github.com/Magik-Web-Services/html-to-pdf-generator",
-        "demo": "https://magik-web-services.github.io/html-to-pdf-generator/",
-        "img": "https://64.media.tumblr.com/3076e12c948c32c23f11b845b052c939/b0a94cc51b0804e1-c0/s640x960/c75a187f6fc8e26b88746a6330a4da91460c6819.jpg"
-    },
-    {
         "id": 34,
         "title": "jewit._animation",
         "desc": "jewit._animation",
@@ -360,28 +352,12 @@
         "img": "https://64.media.tumblr.com/a867a8edc151c3bebf05d8343585bda5/571d0159cd0cdb54-73/s640x960/c8135adf1b3a5af55104c27b00915459fecc3a62.pnj"
     },
     {
-        "id": 46,
-        "title": "animation-website-gsap",
-        "desc": "animation-website-gsap",
-        "src": "https://github.com/atul22g-dev/animation-website-gsap",
-        "demo": "https://animation-website-gsap.netlify.app",
-        "img": "https://64.media.tumblr.com/944542a2ee746d81b220ab0846deef0b/d6eabb0b7524ada6-ae/s640x960/8c53298dbb4f909ff69e295f3626503be471698f.pnj"
-    },
-    {
         "id": 47,
         "title": "animation-website-gsap2",
         "desc": "animation-website-gsap2",
         "src": "https://github.com/atul22g-dev/animation-website-gsap2",
         "demo": "https://animation-website-gsap2.netlify.app",
         "img": "https://64.media.tumblr.com/d19ea3cd9e01f362f24923e2973876c7/f7cd244b74e04b30-20/s640x960/87c65973c5fad56d3d3e41fdc711e1b04c65b687.pnj"
-    },
-    {
-        "id": 48,
-        "title": "Calc-Ai",
-        "desc": "calc-ai",
-        "src": "https://github.com/atul22g-dev/calc-ai",
-        "demo": "https://atugatran-calc-ai.onrender.com",
-        "img": "https://64.media.tumblr.com/c290f39acc3f042bc61222b2db5881c9/1c741d25d87a82b9-b1/s640x960/0eeb38cc0577e21a19de72498ef37e310e4650c4.pnj"
     },
     {
         "id": 49,

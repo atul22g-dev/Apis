@@ -50,8 +50,18 @@
         "src": "https://atualapis.pages.dev/ProjectsApis/Apis.json"
     },
     {
-        "id": 11,
+        "id": 12,
         "name": "Wallpapers",
         "src": "https://atualapis.pages.dev/Wallpapers/index.json"
+    },
+    {
+        "id": 13,
+        "name": "PhpProjects",
+        "src": "https://atualapis.pages.dev/ProjectsApis/PhpProjects.json"
+    },
+    {
+        "id": 13,
+        "name": "incomplete-projects",
+        "src": "https://atualapis.pages.dev/ProjectsApis/incomplete-projects.json"
     }
 ]

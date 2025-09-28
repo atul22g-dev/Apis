@@ -30,29 +30,5 @@
         "demo": "https://merndashboard-n4db.onrender.com/",
         "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
         "img": "https://64.media.tumblr.com/e6e136cd9f8dba4de916fb2423944c1e/17ad12b0710566ae-7a/s640x960/c0ad85339e7f6feaa8bad6dac055b043a87c0050.pnj"
-    },
-    {
-        "id": 5,
-        "title": "DjangoDashboard",
-        "src": "https://github.com/atul22g-dev/djangoDashboard",
-        "demo": "https://atugatran-djangodashboard.onrender.com",
-        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
-        "img": "https://64.media.tumblr.com/3cc2fa950537036411c12b16037363f8/c3fb35ed49813402-15/s640x960/67d3d4fe38d26ad6fc2cd2fbcc5c36137e08aa65.pnj"
-    },
-    {
-        "id": 6,
-        "title": "Card",
-        "src": "https://github.com/atul22g-dev/card",
-        "demo": "https://card-y0nv.onrender.com/",
-        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
-        "img": "https://64.media.tumblr.com/05e3f74ed535a78a48f0e2fef66fc5c5/7195debc647f5c8d-b9/s640x960/0e64ceaa5a2c1edc91b45fa3a98a00761328fe49.pnj"
-    },
-    {
-        "id": 7,
-        "title": "GraphQl-crud",
-        "src": "https://github.com/atul22g-dev/GraphQl-crud/",
-        "demo": "https://graphql-crud-srd0.onrender.com/",
-        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
-        "img": "https://64.media.tumblr.com/2c79fa54eac014f55820f1552ed3262c/7b12f065eb1ce6ca-3e/s640x960/0c839d1b30cfcecc101cc37ce6ac254742255398.pnj"
     }
 ]

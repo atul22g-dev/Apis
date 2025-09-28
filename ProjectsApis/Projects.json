@@ -112,14 +112,6 @@
         "img": "https://64.media.tumblr.com/c5347e742bd6dbe5670030459549ec01/74d4d3165ece3ebb-18/s640x960/ffa7db5d9ed332764293afe45011ac00642b30be.pnj"
     },
     {
-        "id": "15",
-        "title": "Portfolio5",
-        "src": "https://github.com/atul22g-dev/Portfolio5",
-        "demo": "https://atul22g-portfolio5.netlify.app",
-        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
-        "img": "https://64.media.tumblr.com/e92628e4e654867da8daf2941f9cd6cb/9bad747be35b8a71-de/s640x960/9a63acd11bb3013decb8fb43a8354def1bd58771.pnj"
-    },
-    {
         "id": "16",
         "title": "TextUtils-React",
         "src": "https://github.com/atul22g-dev/TextUtils-React",
@@ -158,30 +150,6 @@
         "demo": "https://atugatran-webskills.netlify.app",
         "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
         "img": "https://64.media.tumblr.com/a13dbb974bbc0605b06f08528246e8a8/99eb3ba511970ab3-4d/s640x960/8c607d7bc0041185a7ff5829e97f5a9d22d7bb2c.pnj"
-    },
-    {
-        "id": "21",
-        "title": "Resume-lister",
-        "src": "https://github.com/atul22g-dev/Resume-lister",
-        "demo": "https://hire.chaicode.com/",
-        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
-        "img": "https://64.media.tumblr.com/7ac2e77eb66096a6cc999ea8991add89/2b1fbca54055da69-e9/s1280x1920/2efbefec5163e41f78be6452121cb3a8e2299186.pnj"
-    },
-    {
-        "id": "22",
-        "title": "AI.Agent",
-        "src": "https://github.com/atul22g-dev/AI.Agent",
-        "demo": "https://atugatran-ai-agent.netlify.app/",
-        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
-        "img": "https://64.media.tumblr.com/433cc096672e3f9930eec1df0cfee435/941eeca24bb5a210-81/s1280x1920/9a23cb6fcf30a6f0451bcae950932ed953704bc2.pnj"
-    },
-    {
-        "id": "23",
-        "title": "Website-Builder",
-        "src": "https://github.com/atul22g-dev/Website-Builder",
-        "demo": "https://main--atugatran-website-builder.netlify.app/",
-        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
-        "img": "https://64.media.tumblr.com/234f44dcb227f6ed77971038874485ac/5d10f75050b73f70-37/s1280x1920/f57de307ce5e347ff7bc8d770da8b0580df0403e.pnj"
     },
     {
         "id": "24",
