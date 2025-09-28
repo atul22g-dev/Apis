@@ -433,22 +433,6 @@
     },
     {
         "id": 55,
-        "title": "yourpds",
-        "desc": "yourpds",
-        "src": "https://github.com/atul22g-dev/yourpds",
-        "demo": "https://dev.websitedemoforyou.com/atul/backend/yourpds/",
-        "img": "https://64.media.tumblr.com/a16df7e432e3c4578adc74437c399d9d/f5895f737f1eec0b-d7/s1280x1920/6cb92228cd40b8fabb7e302b50b5fd4e2c4ba394.pnj"
-    },
-    {
-        "id": 56,
-        "title": "Invoice",
-        "desc": "Invoice",
-        "src": "https://github.com/atul22g-dev/Invoice",
-        "demo": "https://dev.websitedemoforyou.com/atul/backend/Invoice/",
-        "img": "https://64.media.tumblr.com/f19f95a11c34554c96e83ded19859eb9/e576484b10cfd5c1-1b/s1280x1920/f709451df0607f49c81e979f6416bb8482ac954e.pnj"
-    },
-    {
-        "id": 57,
         "title": "WhatsappBot",
         "desc": "WhatsappBot",
         "src": "https://github.com/atul22g-dev/WhatsappBot",
