@@ -62,5 +62,13 @@
         "demo": "https://graphql-crud-srd0.onrender.com/",
         "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
         "img": "https://64.media.tumblr.com/2c79fa54eac014f55820f1552ed3262c/7b12f065eb1ce6ca-3e/s640x960/0c839d1b30cfcecc101cc37ce6ac254742255398.pnj"
+    },
+    {
+        "id": 9,
+        "title": "Netflix-Clone",
+        "src": "https://github.com/atul22g-dev/Netflix-Clone",
+        "demo": "http://atualdev-netfix.netlify.app",
+        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
+        "img": "https://64.media.tumblr.com/37267dc5752e3e59512febca01fb569a/eef63acc2671817f-cf/s640x960/8f35417c974e8e8a216f905c6e53ff974145243b.pnj"
     }
 ]

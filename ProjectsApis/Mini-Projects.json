@@ -414,5 +414,13 @@
         "src": "https://github.com/atul22g-dev/WhatsappBot",
         "demo": "https://github.com/atul22g-dev/WhatsappBot",
         "img": "https://64.media.tumblr.com/a3468c068da4af59d139f680d73a3462/02a263f79913698a-b3/s400x600/8455df033703dbd8d65a8b886934597b7d579ab2.pnj"
+    },
+    {
+        "id": 56,
+        "title": "Simple Interest Calculator",
+        "desc": "Simple Interest Calculator",
+        "src": "https://github.com/atul22g-dev/Simple-Interest-Calculator",
+        "demo": "https://interest-rate-bank.onrender.com/",
+        "img": "https://64.media.tumblr.com/608fa877be29325a05b2867e51773b5f/8fcd0724b5949cda-59/s1280x1920/c1e394e098c467ef3818befd167b0bd81d67c51f.pnj"
     }
 ]
