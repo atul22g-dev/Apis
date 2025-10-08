@@ -25,22 +25,6 @@
     },
     {
         "id": 4,
-        "title": "animation-website-gsap",
-        "desc": "animation-website-gsap",
-        "src": "https://github.com/atul22g-dev/animation-website-gsap",
-        "demo": "https://animation-website-gsap.netlify.app",
-        "img": "https://64.media.tumblr.com/944542a2ee746d81b220ab0846deef0b/d6eabb0b7524ada6-ae/s640x960/8c53298dbb4f909ff69e295f3626503be471698f.pnj"
-    },
-    {
-        "id": 5,
-        "title": "Calc-Ai",
-        "desc": "calc-ai",
-        "src": "https://github.com/atul22g-dev/calc-ai",
-        "demo": "https://atugatran-calc-ai.onrender.com",
-        "img": "https://64.media.tumblr.com/c290f39acc3f042bc61222b2db5881c9/1c741d25d87a82b9-b1/s640x960/0eeb38cc0577e21a19de72498ef37e310e4650c4.pnj"
-    },
-    {
-        "id": 6,
         "title": "DjangoDashboard",
         "src": "https://github.com/atul22g-dev/djangoDashboard",
         "demo": "https://atugatran-djangodashboard.onrender.com",
@@ -48,7 +32,7 @@
         "img": "https://64.media.tumblr.com/3cc2fa950537036411c12b16037363f8/c3fb35ed49813402-15/s640x960/67d3d4fe38d26ad6fc2cd2fbcc5c36137e08aa65.pnj"
     },
     {
-        "id": 7,
+        "id": 5,
         "title": "Card",
         "src": "https://github.com/atul22g-dev/card",
         "demo": "https://card-y0nv.onrender.com/",
@@ -56,7 +40,7 @@
         "img": "https://64.media.tumblr.com/05e3f74ed535a78a48f0e2fef66fc5c5/7195debc647f5c8d-b9/s640x960/0e64ceaa5a2c1edc91b45fa3a98a00761328fe49.pnj"
     },
     {
-        "id": 8,
+        "id": 6,
         "title": "GraphQl-crud",
         "src": "https://github.com/atul22g-dev/GraphQl-crud/",
         "demo": "https://graphql-crud-srd0.onrender.com/",
@@ -64,7 +48,7 @@
         "img": "https://64.media.tumblr.com/2c79fa54eac014f55820f1552ed3262c/7b12f065eb1ce6ca-3e/s640x960/0c839d1b30cfcecc101cc37ce6ac254742255398.pnj"
     },
     {
-        "id": 9,
+        "id": 7,
         "title": "Netflix-Clone",
         "src": "https://github.com/atul22g-dev/Netflix-Clone",
         "demo": "http://atualdev-netfix.netlify.app",

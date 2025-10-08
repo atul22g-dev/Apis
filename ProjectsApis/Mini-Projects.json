@@ -422,5 +422,21 @@
         "src": "https://github.com/atul22g-dev/Simple-Interest-Calculator",
         "demo": "https://interest-rate-bank.onrender.com/",
         "img": "https://64.media.tumblr.com/608fa877be29325a05b2867e51773b5f/8fcd0724b5949cda-59/s1280x1920/c1e394e098c467ef3818befd167b0bd81d67c51f.pnj"
+    },
+    {
+        "id": 57,
+        "title": "animation-website-gsap",
+        "desc": "animation-website-gsap",
+        "src": "https://github.com/atul22g-dev/animation-website-gsap",
+        "demo": "https://animation-website-gsap.netlify.app",
+        "img": "https://64.media.tumblr.com/944542a2ee746d81b220ab0846deef0b/d6eabb0b7524ada6-ae/s640x960/8c53298dbb4f909ff69e295f3626503be471698f.pnj"
+    },
+    {
+        "id": 58,
+        "title": "Calc-Ai",
+        "desc": "calc-ai",
+        "src": "https://github.com/atul22g-dev/calc-ai",
+        "demo": "https://atugatran-calc-ai.onrender.com",
+        "img": "https://64.media.tumblr.com/c290f39acc3f042bc61222b2db5881c9/1c741d25d87a82b9-b1/s640x960/0eeb38cc0577e21a19de72498ef37e310e4650c4.pnj"
     }
 ]
