@@ -99,7 +99,7 @@
         "id": "13",
         "title": "horizontal-gallery-webgl",
         "src": "https://github.com/Repocitories/horizontal-gallery-webgl",
-        "demo": "https://horizontal-gallery-webgl.vercel.app/",
+        "demo": "https://horizontal-gallery-webgl.netlify.app/",
         "desc": "  ",
         "img": "https://64.media.tumblr.com/3824ef64a245d8c8d93d92f867da9451/4725a6c79e24c485-01/s640x960/db9d7d455755cb0cea14561826d11c6435190431.pnj"
     },
