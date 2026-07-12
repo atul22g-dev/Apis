@@ -54,5 +54,21 @@
         "demo": "http://atualdev-netfix.netlify.app",
         "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
         "img": "https://64.media.tumblr.com/37267dc5752e3e59512febca01fb569a/eef63acc2671817f-cf/s640x960/8f35417c974e8e8a216f905c6e53ff974145243b.pnj"
+    },
+        {
+        "id": "8",
+        "title": "Anime-Recommendation-System",
+        "src": "https://github.com/atul22g-dev/Anime-Recommendation-System",
+        "demo": "https://atual-anime-recommendation-system.streamlit.app/",
+        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
+        "img": "https://64.media.tumblr.com/568eb9ee779d3003e7c7bcfd4b0a0832/6ce18162a9e4ca44-0d/s1280x1920/f3a9953802fd74eb0334ef075b88b2885027958b.pnj"
+    },
+    {
+        "id": "9",
+        "title": "Anime-Recommendation-System-Model",
+        "src": "https://github.com/atul22g-dev/Anime-Recommendation-System-Model",
+        "demo": "https://atual-anime-recommendation-system.streamlit.app/",
+        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
+        "img": "https://64.media.tumblr.com/568eb9ee779d3003e7c7bcfd4b0a0832/6ce18162a9e4ca44-0d/s1280x1920/f3a9953802fd74eb0334ef075b88b2885027958b.pnj"
     }
 ]
