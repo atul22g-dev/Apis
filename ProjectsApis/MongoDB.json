@@ -1,18 +1,22 @@
 [
     {
         "name": "RestAPI",
-        "src": "https://atugatran-restapi.onrender.com/api/db-heartbeat"
+        "db-check": "https://atugatran-restapi.onrender.com/api/db-heartbeat",
+        "status": "https://atugatran-restapi.onrender.com/api/status"
     },
     {
         "name": "MEHBN",
-        "src": "https://atugatran-mehbn.onrender.com/api/db-heartbeat"
+        "db-check": "https://atugatran-mehbn.onrender.com/api/db-heartbeat",
+        "status": "https://atugatran-mehbn.onrender.com/api/status"
     },
     {
         "name": "MernCrud",
-        "src": "https://mern-crud-ki1x.onrender.com/api/db-heartbeat"
+        "db-check": "https://mern-crud-ki1x.onrender.com/api/db-heartbeat",
+        "status": "https://mern-crud-ki1x.onrender.com/api/status"
     },
     {
         "name": "MernDashboard",
-        "src": "https://merndashboardbackend.onrender.com/api/db-heartbeat"
+        "db-check": "https://merndashboardbackend.onrender.com/api/db-heartbeat",
+        "status": "https://merndashboardbackend.onrender.com/api/status"
     }
 ]
