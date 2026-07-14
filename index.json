@@ -5,63 +5,113 @@
         "src": "https://atualapis.pages.dev/Projects/Projects.json"
     },
     {
-        "id": 3,
+        "id": 2,
         "name": "Mini_Projects",
         "src": "https://atualapis.pages.dev/Projects/Mini_Projects.json"
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "Js_Libaries",
         "src": "https://atualapis.pages.dev/Projects/Js_Libaries.json"
     },
     {
-        "id": 5,
+        "id": 4,
         "name": "Movies",
-        "src": "https://atualapis.pages.dev/Movies/index.json"
+        "src": "https://atualapis.pages.dev/Movies/index.json",
+        "auth": {
+            "type": "password",
+            "required": true,
+            "ref": "movies"
+        }
+    },
+    {
+        "id": 5,
+        "name": "products",
+        "src": "https://atualapis.pages.dev/Products/index.json",
+        "auth": {
+            "type": "password",
+            "required": true,
+            "ref": "products"
+        }
     },
     {
         "id": 6,
-        "name": "products",
-        "src": "https://atualapis.pages.dev/Products/index.json"
+        "name": "Backend",
+        "src": "https://atualapis.pages.dev/Projects/Backend.json",
+        "auth": {
+            "type": "password",
+            "required": true,
+            "ref": "backend"
+        }
     },
     {
         "id": 7,
-        "name": "Backend",
-        "src": "https://atualapis.pages.dev/Projects/Backend.json"
+        "name": "Repositories",
+        "src": "https://atualapis.pages.dev/Projects/Repositories.json",
+        "auth": {
+            "type": "password",
+            "required": true,
+            "ref": "repositories"
+        }
     },
     {
         "id": 8,
-        "name": "Repositories",
-        "src": "https://atualapis.pages.dev/Projects/Repositories.json"
+        "name": "App",
+        "src": "https://atualapis.pages.dev/Projects/App.json",
+        "auth": {
+            "type": "password",
+            "required": true,
+            "ref": "app"
+        }
     },
     {
         "id": 9,
-        "name": "App",
-        "src": "https://atualapis.pages.dev/Projects/App.json"
+        "name": "Cdns",
+        "src": "https://atualapis.pages.dev/Projects/Cdns.json",
+        "auth": {
+            "type": "password",
+            "required": true,
+            "ref": "cdns"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Wallpapers",
+        "src": "https://atualapis.pages.dev/Wallpapers/index.json",
+        "auth": {
+            "type": "password",
+            "required": true,
+            "ref": "wallpapers"
+        }
     },
     {
         "id": 11,
-        "name": "Cdns",
-        "src": "https://atualapis.pages.dev/Projects/Cdns.json"
+        "name": "PhpProjects",
+        "src": "https://atualapis.pages.dev/Projects/PhpProjects.json",
+        "auth": {
+            "type": "password",
+            "required": true,
+            "ref": "php_projects"
+        }
     },
     {
         "id": 12,
-        "name": "Wallpapers",
-        "src": "https://atualapis.pages.dev/Wallpapers/index.json"
+        "name": "Incomplete_Projects",
+        "src": "https://atualapis.pages.dev/Projects/Incomplete_Projects.json",
+        "auth": {
+            "type": "password",
+            "required": true,
+            "ref": "incomplete_projects"
+        }
     },
     {
         "id": 13,
-        "name": "PhpProjects",
-        "src": "https://atualapis.pages.dev/Projects/PhpProjects.json"
-    },
-    {
-        "id": 14,
-        "name": "Incomplete_Projects",
-        "src": "https://atualapis.pages.dev/Projects/Incomplete_Projects.json"
-    },
-    {
-        "id": 15,
         "name": "MongoDB",
-        "src": "https://atualapis.pages.dev/Projects/MongoDB.json"
+        "src": "https://atualapis.pages.dev/Projects/MongoDB.json",
+        "auth": {
+            "type": "password",
+            "required": true,
+            "ref": "mongodb"
+        }
     }
 ]
