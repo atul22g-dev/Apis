@@ -2,17 +2,17 @@
     {
         "id": 1,
         "name": "Projects",
-        "src": "https://atualapis.pages.dev/ProjectsApis/Projects.json"
+        "src": "https://atualapis.pages.dev/Projects/Projects.json"
     },
     {
         "id": 3,
-        "name": "Mini-Projects",
-        "src": "https://atualapis.pages.dev/ProjectsApis/Mini-Projects.json"
+        "name": "Mini_Projects",
+        "src": "https://atualapis.pages.dev/Projects/Mini_Projects.json"
     },
     {
         "id": 4,
         "name": "Js_Libaries",
-        "src": "https://atualapis.pages.dev/ProjectsApis/Js_Libaries.json"
+        "src": "https://atualapis.pages.dev/Projects/Js_Libaries.json"
     },
     {
         "id": 5,
@@ -27,27 +27,22 @@
     {
         "id": 7,
         "name": "Backend",
-        "src": "https://atualapis.pages.dev/ProjectsApis/Backend.json"
+        "src": "https://atualapis.pages.dev/Projects/Backend.json"
     },
     {
         "id": 8,
         "name": "Repositories",
-        "src": "https://atualapis.pages.dev/ProjectsApis/Repositories.json"
+        "src": "https://atualapis.pages.dev/Projects/Repositories.json"
     },
     {
         "id": 9,
         "name": "App",
-        "src": "https://atualapis.pages.dev/ProjectsApis/App.json"
-    },
-    {
-        "id": 10,
-        "name": "Atul22g",
-        "src": "https://atualapis.pages.dev/ProjectsApis/atual-dev.json"
+        "src": "https://atualapis.pages.dev/Projects/App.json"
     },
     {
         "id": 11,
-        "name": "Apis",
-        "src": "https://atualapis.pages.dev/ProjectsApis/Apis.json"
+        "name": "Cdns",
+        "src": "https://atualapis.pages.dev/Projects/Cdns.json"
     },
     {
         "id": 12,
@@ -57,16 +52,16 @@
     {
         "id": 13,
         "name": "PhpProjects",
-        "src": "https://atualapis.pages.dev/ProjectsApis/PhpProjects.json"
+        "src": "https://atualapis.pages.dev/Projects/PhpProjects.json"
     },
     {
         "id": 14,
-        "name": "incomplete-projects",
-        "src": "https://atualapis.pages.dev/ProjectsApis/incomplete-projects.json"
+        "name": "Incomplete_Projects",
+        "src": "https://atualapis.pages.dev/Projects/Incomplete_Projects.json"
     },
     {
         "id": 15,
         "name": "MongoDB",
-        "src": "https://atualapis.pages.dev/ProjectsApis/MongoDB.json"
+        "src": "https://atualapis.pages.dev/Projects/MongoDB.json"
     }
 ]
