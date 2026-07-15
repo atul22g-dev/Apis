@@ -102,8 +102,8 @@ export default function LoginPage() {
           </form>
 
           <div className="mt-6 pt-6 border-t border-white/5">
-            <p className="text-xs text-white/30 text-center">
-              Password set in <code className="text-primary-400/60 bg-white/5 px-1.5 py-0.5 rounded">.env.local</code>
+            <p className="text-base text-white text-center">
+              Made with ❤️ by <a href="https://github.com/atual-dev" target="_blank" rel="noopener noreferrer" className="text-primary-500 hover:underline">Atul</a>
             </p>
           </div>
         </div>

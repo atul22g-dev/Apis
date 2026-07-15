@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+// @ts-ignore: Allow importing global CSS without type declarations
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { AuthProvider } from "@/lib/AuthContext";
@@ -16,6 +17,9 @@ export const metadata: Metadata = {
     title: "Atual APIs",
     description: "Your central API hub for projects, movies, products and more.",
     type: "website",
+  },
+  icons: {
+    icon: '/favicon.ico',
   },
 };
 
