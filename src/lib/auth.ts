@@ -16,7 +16,7 @@ export function isRouteProtected(pathname: string): boolean {
     '/api/movies', '/api/products', '/api/backend',
     '/api/repositories', '/api/apps', '/api/cdns',
     '/api/wallpapers', '/api/php-projects', '/api/incomplete-projects',
-    '/api/mongodb', '/api/index',
+    '/api/mongodb', '/api/packages', '/api/index',
   ];
   return protectedRoutes.includes(pathname);
 }
@@ -32,8 +32,11 @@ export function validateAuth(request: NextRequest): AuthResult {
   const apiKey = process.env.API_KEY;
 
   if (!apiKey) {
-    // No API key configured, allow access (setup mode)
-    return { authenticated: true, method: 'none', role: 'setup' };
+    // No API key configured — reject with clear instructions
+    return {
+      authenticated: false,
+      error: 'API_KEY environment variable is not configured. Set API_KEY in your Vercel dashboard or .env.local file.',
+    };
   }
 
   // 1. API Key check

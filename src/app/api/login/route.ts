@@ -13,8 +13,15 @@ export async function POST(request: NextRequest) {
 
     const loginPassword = process.env.LOGIN_PASSWORD;
 
-    // Allow access if no password is configured (setup mode)
-    if (!loginPassword || password === loginPassword) {
+    // Reject if no password is configured — must be set in environment
+    if (!loginPassword) {
+      return NextResponse.json(
+        { message: 'LOGIN_PASSWORD is not configured. Set it in your Vercel dashboard or .env.local file.' },
+        { status: 500 }
+      );
+    }
+
+    if (password === loginPassword) {
       const response = NextResponse.json({
         success: true,
         message: 'Authenticated successfully',

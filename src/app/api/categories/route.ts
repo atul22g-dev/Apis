@@ -1,7 +1,13 @@
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 import { indexEntries } from '@/lib/data';
+import { validateAuth, unauthorizedResponse } from '@/lib/auth';
 
-export async function GET() {
+export async function GET(request: NextRequest) {
+  const auth = validateAuth(request);
+  if (!auth.authenticated) {
+    return unauthorizedResponse(auth.error);
+  }
+
   return NextResponse.json({
     data: indexEntries,
     _links: {
