@@ -5,7 +5,14 @@ const nextConfig = {
       { protocol: 'https', hostname: '64.media.tumblr.com' },
       { protocol: 'https', hostname: '**' }
     ]
-  }
+  },
+  // Vercel optimizations
+  swcMinify: true,
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production'
+      ? { exclude: ['error'] }
+      : false,
+  },
 };
 
 export default nextConfig;
