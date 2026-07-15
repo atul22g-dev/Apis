@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Menu, X, ArrowUpRight, Github, LogOut, LogIn, Lock, Terminal } from 'lucide-react';
+import { Menu, X, ArrowUpRight, LogOut, LogIn, Lock, Terminal, Code } from 'lucide-react';
 import { categories } from '@/lib/data';
 import { useAuth } from '@/lib/AuthContext';
 
@@ -61,7 +61,7 @@ export default function Navbar() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </svg>
                   </button>
-                  <div className="absolute top-full left-0 mt-1 w-56 glass rounded-xl p-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                  <div className="absolute top-full left-0 mt-1 w-56 rounded-xl p-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 bg-[#070708]">
                     {categories.map((cat) => (
                       <Link
                         key={cat.id}
@@ -98,13 +98,13 @@ export default function Navbar() {
               )
             )}
             <a
-              href="https://github.com/atul22g-dev"
+              href="https://atual-dev.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
               className="px-3 py-2 text-sm text-white/70 hover:text-white rounded-lg hover:bg-white/5 transition-all flex items-center gap-1"
             >
-              <Github className="w-4 h-4" />
-              GitHub
+              <Code className="w-4 h-4" />
+              Main
             </a>
           </nav>
 
@@ -120,11 +120,11 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden transition-all duration-300 overflow-hidden ${
-          isMobileMenuOpen ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'
+        className={`md:hidden transition-all duration-300 ${
+          isMobileMenuOpen ? 'max-h-[80vh] opacity-100' : 'max-h-0 opacity-0'
         }`}
       >
-        <div className="glass border-t border-white/10 p-4 space-y-1">
+        <div className="glass border-t border-white/10 p-4 space-y-1 max-h-[80vh] overflow-y-auto">
           {isAuthenticated ? (
             <>
               <Link
@@ -184,7 +184,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-3 py-2 text-sm text-white/70 hover:text-white rounded-lg hover:bg-white/5 transition-all"
           >
-            <Github className="w-4 h-4" />
+            {/* <Github className="w-4 h-4" /> */}
             GitHub
             <ArrowUpRight className="w-3 h-3 ml-auto" />
           </a>
