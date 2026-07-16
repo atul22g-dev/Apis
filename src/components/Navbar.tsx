@@ -121,7 +121,7 @@ export default function Navbar() {
       {/* Mobile Menu */}
       <div
         className={`md:hidden transition-all duration-300 ${
-          isMobileMenuOpen ? 'max-h-[80vh] opacity-100' : 'max-h-0 opacity-0'
+          isMobileMenuOpen ? 'max-h-[80vh] block' : 'max-h-0 hidden'
         }`}
       >
         <div className="glass border-t border-white/10 p-4 space-y-1 max-h-[80vh] overflow-y-auto">
