@@ -1,22 +1,22 @@
 [
     {
         "name": "RestAPI",
-        "db-check": "https://atugatran-restapi.onrender.com/api/db-heartbeat",
-        "status": "https://atugatran-restapi.onrender.com/api/status"
+        "db-check": "https://rest-api-atul22g-dev.vercel.app/api/db-heartbeat",
+        "status": "https://rest-api-atul22g-dev.vercel.app/api/status"
     },
     {
         "name": "MEHBN",
-        "db-check": "https://atugatran-mehbn.onrender.com/api/db-heartbeat",
-        "status": "https://atugatran-mehbn.onrender.com/api/status"
+        "db-check": "https://mehbn.vercel.app/api/db-heartbeat",
+        "status": "https://mehbn.vercel.app/api/status"
     },
     {
         "name": "MernCrud",
-        "db-check": "https://mern-crud-ki1x.onrender.com/api/db-heartbeat",
-        "status": "https://mern-crud-ki1x.onrender.com/api/status"
+        "db-check": "https://mern-crud-atul22g-dev.vercel.app/api/db-heartbeat",
+        "status": "https://mern-crud-atul22g-dev.vercel.app/api/status"
     },
     {
         "name": "MernDashboard",
-        "db-check": "https://merndashboardbackend.onrender.com/api/db-heartbeat",
-        "status": "https://merndashboardbackend.onrender.com/api/status"
+        "db-check": "https://mern-dashboard-backend-atul22g-dev.vercel.app/api/db-heartbeat",
+        "status": "https://mern-dashboard-backend-atul22g-dev.vercel.app/api/status"
     }
 ]

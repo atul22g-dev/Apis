@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Mern-crud",
         "src": "https://github.com/atul22g-dev/Mern-crud",
-        "demo": "https://mern-crud-sacq.onrender.com/",
+        "demo": "https://mern-crud-atul22g-dev.vercel.app/",
         "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
         "img": "https://64.media.tumblr.com/c1143366302a220055f045079debe94b/40f44deeed7faf03-aa/s640x960/a9ec46ddafae9909460a759a663870864edf8456.pnj"
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "title": "Rest-api",
         "src": "https://github.com/atul22g-dev/restAPI",
-        "demo": "https://atugatran-restapi.onrender.com",
+        "demo": "https://rest-api-atul22g-dev.vercel.app/",
         "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
         "img": "https://64.media.tumblr.com/f18ab61b99eb620bdc966f11901de1af/44e301c864cd17b5-d9/s1280x1920/61c84d1279c55c77e256c56da7dd29b14ed7d048.pnj"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "title": "MernDashboard",
         "src": "https://github.com/atul22g-dev/MernDashboard",
-        "demo": "https://merndashboard-n4db.onrender.com/",
+        "demo": "https://mern-dashboard-atul22g-dev.vercel.app/",
         "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
         "img": "https://64.media.tumblr.com/e6e136cd9f8dba4de916fb2423944c1e/17ad12b0710566ae-7a/s640x960/c0ad85339e7f6feaa8bad6dac055b043a87c0050.pnj"
     }
