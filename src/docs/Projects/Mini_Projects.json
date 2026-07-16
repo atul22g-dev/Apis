@@ -268,7 +268,7 @@
         "title": "Calc-Ai",
         "desc": "calc-ai",
         "src": "https://github.com/atul22g-dev/calc-ai",
-        "demo": "https://atugatran-calc-ai.onrender.com",
+        "demo": "calc-ai-atual-dev.vercel.app",
         "img": "https://64.media.tumblr.com/c290f39acc3f042bc61222b2db5881c9/1c741d25d87a82b9-b1/s640x960/0eeb38cc0577e21a19de72498ef37e310e4650c4.pnj"
     },
     {
@@ -324,7 +324,7 @@
         "title": "Retro-Brick-Game",
         "desc": "Retro-Brick-Game",
         "src": "https://github.com/atul22g-dev/Retro-Brick-Game",
-        "demo": "https://retro-brick-game.onrender.com/",
+        "demo": "https://retro-brick-game.vercel.app/",
         "img": "https://64.media.tumblr.com/7fe13d5352034722d72f468618748311/7430cac1f30c565a-be/s640x960/64432a612f9a0694e245fd624532ee29890a044e.pnj"
     },
     {
@@ -332,7 +332,7 @@
         "title": "threejs-objects",
         "desc": "threejs-objects",
         "src": "https://github.com/atul22g-dev/threejs-Objects",
-        "demo": "https://threejs-objects.onrender.com/",
+        "demo": "https://threejs-3d-object.vercel.app/",
         "img": "https://64.media.tumblr.com/b2275ef8b25a3abae28b0fafd33aca8d/5d03f36f8b558a34-05/s640x960/b6061c82f3b885c0b2eda719fdcf6019b3639163.pnj"
     },
     {
@@ -340,7 +340,7 @@
         "title": "threejs-Objects-with-lights",
         "desc": "threejs-Objects-with-lights",
         "src": "https://github.com/atul22g-dev/threejs-Objects-with-lights",
-        "demo": "https://threejs-objects-with-lights.onrender.com/",
+        "demo": "threejs-objects-with-lights.vercel.app/",
         "img": "https://64.media.tumblr.com/59669764a398a4083c361082c04ccf3c/dcad46b69d42bffb-0b/s640x960/4eeb1d2a551f4ea218d6d1c4dfc113c7f25d3d65.pnj"
     },
     {
@@ -388,7 +388,7 @@
         "title": "threejs-image-gallery",
         "desc": "threejs-image-gallery",
         "src": "https://github.com/atul22g-dev/threejs-image-gallery",
-        "demo": "https://threejs-image-gallery.onrender.com/",
+        "demo": "https://threejs-image-gallery.vercel.app/",
         "img": "https://64.media.tumblr.com/8d9a8380dd5e48e5f2ff2a80b4505b8f/438571054cf30388-ac/s640x960/281c10c64e855f4ebce010b6730b78c44d489ed6.pnj"
     },
     {
@@ -396,7 +396,7 @@
         "title": "ez-tree",
         "desc": "ez-tree",
         "src": "https://github.com/atul22g-dev/ez-tree",
-        "demo": "https://ez-tree.onrender.com/",
+        "demo": "https://ez-tree-atual-dev.vercel.app/",
         "img": "https://64.media.tumblr.com/752405b31a70dc65422a9a53d23e6a58/4b9e88eec00a017e-42/s640x960/277bdb348060e86666780b6d6b392320d376df86.pnj"
     },
     {
@@ -428,7 +428,7 @@
         "title": "Simple Interest Calculator",
         "desc": "Simple Interest Calculator",
         "src": "https://github.com/atul22g-dev/Simple-Interest-Calculator",
-        "demo": "https://interest-rate-bank.onrender.com/",
+        "demo": "https://simple-interest-calculator-atual-dev.vercel.app/",
         "img": "https://64.media.tumblr.com/608fa877be29325a05b2867e51773b5f/8fcd0724b5949cda-59/s1280x1920/c1e394e098c467ef3818befd167b0bd81d67c51f.pnj"
     }
 ]

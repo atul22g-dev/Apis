@@ -99,7 +99,7 @@
         "id": "14",
         "title": "Portfolio4",
         "src": "https://github.com/atul22g-dev/React-portfolio4",
-        "demo": "https://react-portfolio4.onrender.com/",
+        "demo": "atual-dev-portfolio4.vercel.app/",
         "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
         "img": "https://64.media.tumblr.com/c5347e742bd6dbe5670030459549ec01/74d4d3165ece3ebb-18/s640x960/ffa7db5d9ed332764293afe45011ac00642b30be.pnj"
     },
@@ -113,9 +113,9 @@
     },
     {
         "id": "16",
-        "title": "TextUtils-React",
-        "src": "https://github.com/atul22g-dev/TextUtils-React",
-        "demo": "https://textutils-react-a608.onrender.com/",
+        "title": "TextUtils",
+        "src": "https://github.com/atul22g-dev/TextUtils",
+        "demo": "https://text-utils-atul22g-dev.vercel.app/",
         "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
         "img": "https://64.media.tumblr.com/0a434712d993196f660f8a41f68e82dc/d2cddefbcd9184c7-37/s1280x1920/9d50be9f6a044766bfd571e3daad4e817e6a7910.jpg"
     },
@@ -123,7 +123,7 @@
         "id": "17",
         "title": "Phone",
         "src": "https://github.com/atul22g-dev/Phone",
-        "demo": "https://phone-b42k.onrender.com/",
+        "demo": "phone-atul22g-dev.vercel.app/",
         "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
         "img": "https://64.media.tumblr.com/869927d77ed9bc602413ed105ede316c/dd18891140822d1f-28/s640x960/7f9fa06cb50d5267adf179c84a3a8e807f7fcb1f.pnj"
     },
