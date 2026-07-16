@@ -11,8 +11,8 @@
     },
     {
         "name": "MernCrud",
-        "db-check": "https://mern-crud-atul22g-dev.vercel.app/api/db-heartbeat",
-        "status": "https://mern-crud-atul22g-dev.vercel.app/api/status"
+        "db-check": "https://mern-crud-backend-atul22g-dev.vercel.app/api/db-heartbeat",
+        "status": "https://mern-crud-backend-atul22g-dev.vercel.app/api/status"
     },
     {
         "name": "MernDashboard",
