@@ -1,24 +1,23 @@
 import { NextRequest, NextResponse } from 'next/server';
 import {
-  projects, miniProjects, jsLibraries, movies, products,
-  backendProjects, repositories, apps, cdns, wallpapers,
-  phpProjects, incompleteProjects, mongodbProjects, packages,
+  frontendProjects, landingPageProjects, libraries, movies, products,
+  fullstackProjects, repositories, apps, cdns, wallpapers,
+  unfinishedProjects, mongodbProjects, packages,
 } from '@/lib/data';
 import { validateAuth, unauthorizedResponse, isRouteProtected } from '@/lib/auth';
 
 const dataMap: Record<string, any[]> = {
-  projects,
-  'mini-projects': miniProjects,
-  'js-libraries': jsLibraries,
+  frontend: frontendProjects,
+  'landing-page': landingPageProjects,
+  libraries,
   movies,
   products,
-  backend: backendProjects,
+  fullstack: fullstackProjects,
   repositories,
   apps,
   cdns,
   wallpapers,
-  'php-projects': phpProjects,
-  'incomplete-projects': incompleteProjects,
+  unfinished: unfinishedProjects,
   mongodb: mongodbProjects,
   packages,
   index: [],
