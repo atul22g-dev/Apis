@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import {
-  ArrowUpRight, BookOpen, Code2, Construction, Database, Film,
+  ArrowUpRight, BookOpen, Construction, Database, Film,
   FolderCog, GitBranch, Globe, Image, Package, Server, ShoppingBag,
   Smartphone, Zap, BarChart3, Github
 } from 'lucide-react';
@@ -11,22 +11,21 @@ import AuthGuard from '@/components/AuthGuard';
 
 const iconMap: Record<string, React.ElementType> = {
   FolderCog, Zap, BookOpen, Film, ShoppingBag, Server, GitBranch,
-  Smartphone, Globe, Image, Code2, Construction, Database, Package
+  Smartphone, Globe, Image, Construction, Database, Package
 };
 
 const categoryColors: Record<string, { bg: string; border: string; glow: string }> = {
-  'projects': { bg: 'from-blue-500/20 to-cyan-500/10', border: 'border-blue-500/30', glow: 'group-hover:shadow-blue-500/25' },
-  'mini-projects': { bg: 'from-amber-500/20 to-orange-500/10', border: 'border-amber-500/30', glow: 'group-hover:shadow-amber-500/25' },
-  'js-libraries': { bg: 'from-emerald-500/20 to-green-500/10', border: 'border-emerald-500/30', glow: 'group-hover:shadow-emerald-500/25' },
+  'frontend': { bg: 'from-blue-500/20 to-cyan-500/10', border: 'border-blue-500/30', glow: 'group-hover:shadow-blue-500/25' },
+  'landing-page': { bg: 'from-amber-500/20 to-orange-500/10', border: 'border-amber-500/30', glow: 'group-hover:shadow-amber-500/25' },
+  libraries: { bg: 'from-emerald-500/20 to-green-500/10', border: 'border-emerald-500/30', glow: 'group-hover:shadow-emerald-500/25' },
   'movies': { bg: 'from-red-500/20 to-rose-500/10', border: 'border-red-500/30', glow: 'group-hover:shadow-red-500/25' },
   'products': { bg: 'from-purple-500/20 to-violet-500/10', border: 'border-purple-500/30', glow: 'group-hover:shadow-purple-500/25' },
-  'backend': { bg: 'from-cyan-500/20 to-teal-500/10', border: 'border-cyan-500/30', glow: 'group-hover:shadow-cyan-500/25' },
+  'fullstack': { bg: 'from-cyan-500/20 to-teal-500/10', border: 'border-cyan-500/30', glow: 'group-hover:shadow-cyan-500/25' },
   'repositories': { bg: 'from-green-500/20 to-lime-500/10', border: 'border-green-500/30', glow: 'group-hover:shadow-green-500/25' },
   'apps': { bg: 'from-yellow-500/20 to-amber-500/10', border: 'border-yellow-500/30', glow: 'group-hover:shadow-yellow-500/25' },
   'cdns': { bg: 'from-fuchsia-500/20 to-pink-500/10', border: 'border-fuchsia-500/30', glow: 'group-hover:shadow-fuchsia-500/25' },
   'wallpapers': { bg: 'from-pink-500/20 to-rose-500/10', border: 'border-pink-500/30', glow: 'group-hover:shadow-pink-500/25' },
-  'php-projects': { bg: 'from-indigo-500/20 to-purple-500/10', border: 'border-indigo-500/30', glow: 'group-hover:shadow-indigo-500/25' },
-  'incomplete-projects': { bg: 'from-orange-500/20 to-red-500/10', border: 'border-orange-500/30', glow: 'group-hover:shadow-orange-500/25' },
+  unfinished: { bg: 'from-orange-500/20 to-red-500/10', border: 'border-orange-500/30', glow: 'group-hover:shadow-orange-500/25' },
   'mongodb': { bg: 'from-teal-500/20 to-emerald-500/10', border: 'border-teal-500/30', glow: 'group-hover:shadow-teal-500/25' },
   'packages': { bg: 'from-stone-500/20 to-neutral-500/10', border: 'border-stone-500/30', glow: 'group-hover:shadow-stone-500/25' },
 };
@@ -66,7 +65,7 @@ function HomeContent() {
               Explore Categories
             </Link>
             <a
-              href="https://github.com/atul22g-dev"
+              href="https://github.com/atul22g-dev/Apis-atual-dev"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 rounded-xl glass glass-hover text-white/80 font-medium flex items-center gap-2 transition-all active:scale-95"
@@ -86,7 +85,7 @@ function HomeContent() {
             {[
               { label: 'Categories', value: categories.length, icon: BarChart3, color: 'text-primary-400' },
               { label: 'Total Items', value: totalItems, icon: Database, color: 'text-emerald-400' },
-              { label: 'Projects', value: categories.slice(0, 3).reduce((s, c) => s + c.count, 0), icon: FolderCog, color: 'text-amber-400' },
+              { label: 'Frontend', value: categories.slice(0, 3).reduce((s, c) => s + c.count, 0), icon: FolderCog, color: 'text-amber-400' },
               { label: 'Media', value: categories.find(c => c.id === 'movies')!.count + categories.find(c => c.id === 'wallpapers')!.count, icon: Film, color: 'text-rose-400' },
             ].map((stat, i) => {
               const Icon = stat.icon;

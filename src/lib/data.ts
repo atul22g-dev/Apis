@@ -1,16 +1,15 @@
 import indexData from '@/docs/index.json';
-import projectsData from '@/docs/Projects/Projects.json';
-import miniProjectsData from '@/docs/Projects/Mini_Projects.json';
-import jsLibrariesData from '@/docs/Projects/Js_Libaries.json';
+import frontendData from '@/docs/Projects/Frontend.json';
+import landingPageData from '@/docs/Projects/LandingPage.json';
+import librariesData from '@/docs/Projects/Libraries.json';
 import moviesData from '@/docs/Movies/index.json';
 import productsData from '@/docs/Products/index.json';
-import backendData from '@/docs/Projects/Backend.json';
+import fullstackData from '@/docs/Projects/Fullstack.json';
 import repositoriesData from '@/docs/Projects/Repositories.json';
 import appData from '@/docs/Projects/App.json';
 import cdnsData from '@/docs/Projects/Cdns.json';
 import wallpapersData from '@/docs/Wallpapers/index.json';
-import phpProjectsData from '@/docs/Projects/PhpProjects.json';
-import incompleteProjectsData from '@/docs/Projects/Incomplete_projects.json';
+import unfinishedData from '@/docs/Projects/Unfinished.json';
 import mongodbData from '@/docs/Projects/MongoDB.json';
 import packagesData from '@/docs/Projects/Packages.json';
 
@@ -96,12 +95,14 @@ export interface Wallpaper {
 
 export interface Cdn {
   name: string;
-  src: string;
+  src?: string;
+  demo?: string;
 }
 
 export interface Package {
   name: string;
   src: string;
+  demo: string;
 }
 
 export interface MongoDBProject {
@@ -142,18 +143,17 @@ export interface CategoryInfo {
 
 // Exported data
 export const indexEntries = indexData as IndexEntry[];
-export const projects = projectsData as Project[];
-export const miniProjects = miniProjectsData as Project[];
-export const jsLibraries = jsLibrariesData as Project[];
+export const frontendProjects = frontendData as Project[];
+export const landingPageProjects = landingPageData as Project[];
+export const libraries = librariesData as Project[];
 export const movies = moviesData as Movie[];
 export const products = productsData as Product[];
 export const wallpapers = wallpapersData as Wallpaper[];
-export const backendProjects = backendData as Project[];
+export const fullstackProjects = fullstackData as Project[];
 export const repositories = repositoriesData as Project[];
 export const apps = appData as Project[];
 export const cdns = cdnsData as Cdn[];
-export const phpProjects = phpProjectsData as Project[];
-export const incompleteProjects = incompleteProjectsData as Project[];
+export const unfinishedProjects = unfinishedData as Project[];
 export const mongodbProjects = mongodbData as MongoDBProject[];
 export const packages = packagesData as Package[];
 
@@ -181,7 +181,7 @@ export const authConfig: AuthConfig = {
   example_requests: [
     {
       description: 'Using API key header',
-      curl: `curl -H "X-API-Key: YOUR_API_KEY" http://localhost:3000/api/projects`,
+      curl: `curl -H "X-API-Key: YOUR_API_KEY" http://localhost:3000/api/frontend`,
     },
     {
       description: 'Using Bearer token',
@@ -193,30 +193,30 @@ export const authConfig: AuthConfig = {
 // Category definitions
 export const categories: CategoryInfo[] = [
   {
-    id: 'projects',
-    name: 'Projects',
-    slug: 'projects',
-    description: 'Complete web development projects',
+    id: 'frontend',
+    name: 'Frontend',
+    slug: 'frontend',
+    description: 'Frontend web development projects',
     icon: 'FolderCog',
-    count: projects.length,
+    count: frontendProjects.length,
     color: '#0ea5e9'
   },
   {
-    id: 'mini-projects',
-    name: 'Mini Projects',
-    slug: 'mini-projects',
-    description: 'Small, focused projects and experiments',
+    id: 'landing-page',
+    name: 'LandingPage',
+    slug: 'landing-page',
+    description: 'Landing page templates and designs',
     icon: 'Zap',
-    count: miniProjects.length,
+    count: landingPageProjects.length,
     color: '#f59e0b'
   },
   {
-    id: 'js-libraries',
-    name: 'JS Libraries',
-    slug: 'js-libraries',
+    id: 'libraries',
+    name: 'Libraries',
+    slug: 'libraries',
     description: 'JavaScript libraries and resources',
     icon: 'BookOpen',
-    count: jsLibraries.length,
+    count: libraries.length,
     color: '#10b981'
   },
   {
@@ -238,12 +238,12 @@ export const categories: CategoryInfo[] = [
     color: '#8b5cf6'
   },
   {
-    id: 'backend',
-    name: 'Backend',
-    slug: 'backend',
-    description: 'Backend projects and APIs',
+    id: 'fullstack',
+    name: 'Fullstack',
+    slug: 'fullstack',
+    description: 'Fullstack web development projects',
     icon: 'Server',
-    count: backendProjects.length,
+    count: fullstackProjects.length,
     color: '#06b6d4'
   },
   {
@@ -283,21 +283,12 @@ export const categories: CategoryInfo[] = [
     color: '#ec4899'
   },
   {
-    id: 'php-projects',
-    name: 'PHP Projects',
-    slug: 'php-projects',
-    description: 'PHP-based web projects',
-    icon: 'Code2',
-    count: phpProjects.length,
-    color: '#6366f1'
-  },
-  {
-    id: 'incomplete-projects',
-    name: 'Incomplete',
-    slug: 'incomplete-projects',
+    id: 'unfinished',
+    name: 'Unfinished',
+    slug: 'unfinished',
     description: 'Work in progress projects',
     icon: 'Construction',
-    count: incompleteProjects.length,
+    count: unfinishedProjects.length,
     color: '#f97316'
   },
   {

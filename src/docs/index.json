@@ -1,18 +1,18 @@
 [
     {
         "id": 1,
-        "name": "Projects",
-        "src": "https://atualapis.pages.dev/Projects/Projects.json"
+        "name": "Frontend",
+        "src": "https://atualapis.pages.dev/Projects/Frontend.json"
     },
     {
         "id": 2,
-        "name": "Mini_Projects",
-        "src": "https://atualapis.pages.dev/Projects/Mini_Projects.json"
+        "name": "LandingPage",
+        "src": "https://atualapis.pages.dev/Projects/LandingPage.json"
     },
     {
         "id": 3,
-        "name": "Js_Libaries",
-        "src": "https://atualapis.pages.dev/Projects/Js_Libaries.json"
+        "name": "Libraries",
+        "src": "https://atualapis.pages.dev/Projects/Libraries.json"
     },
     {
         "id": 4,
@@ -36,8 +36,8 @@
     },
     {
         "id": 6,
-        "name": "Backend",
-        "src": "https://atualapis.pages.dev/Projects/Backend.json",
+        "name": "Fullstack",
+        "src": "https://atualapis.pages.dev/Projects/Fullstack.json",
         "auth": {
             "type": "password",
             "required": true,
@@ -86,18 +86,8 @@
     },
     {
         "id": 11,
-        "name": "PhpProjects",
-        "src": "https://atualapis.pages.dev/Projects/PhpProjects.json",
-        "auth": {
-            "type": "password",
-            "required": true,
-            "ref": "php_projects"
-        }
-    },
-    {
-        "id": 12,
-        "name": "Incomplete_Projects",
-        "src": "https://atualapis.pages.dev/Projects/Incomplete_Projects.json",
+        "name": "Unfinished",
+        "src": "https://atualapis.pages.dev/Projects/Unfinished.json",
         "auth": {
             "type": "password",
             "required": true,
