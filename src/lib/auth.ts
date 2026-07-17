@@ -12,10 +12,10 @@ export interface AuthResult {
  */
 export function isRouteProtected(pathname: string): boolean {
   const protectedRoutes = [
-    '/api/projects', '/api/mini-projects', '/api/js-libraries',
-    '/api/movies', '/api/products', '/api/backend',
+    '/api/frontend', '/api/landing-page', '/api/libraries',
+    '/api/movies', '/api/products', '/api/fullstack',
     '/api/repositories', '/api/apps', '/api/cdns',
-    '/api/wallpapers', '/api/incomplete-projects',
+    '/api/wallpapers', '/api/unfinished',
     '/api/mongodb', '/api/packages', '/api/index',
   ];
   return protectedRoutes.includes(pathname);
