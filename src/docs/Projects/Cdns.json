@@ -1,18 +1,22 @@
 [
     {
         "name": "My Apis",
-        "src": "https://atualapis.pages.dev/index.json"
+        "src": "https://github.com/atul22g-dev/Apis-atual-dev",
+        "demo": "https://apis-atual-dev.vercel.app/api/index"
     },
     {
         "name": "QrCode@1.0.0",
-        "src": "https://cdn.jsdelivr.net/gh/atul22g/CDN/liberies/QrCode%401.0.0/min.js"
+        "src": "https://github.com/atul22g-dev/CDN/tree/main/liberies/QrCode%401.0.0",
+        "demo": "https://cdn.jsdelivr.net/gh/atul22g/CDN/liberies/QrCode%401.0.0/min.js"
     },
     {
         "name": "TailWindCss@3.4.10",
-        "src": "https://cdn.jsdelivr.net/gh/atul22g/CDN/liberies/tailwindcss%403.4.10/min.js"
+        "src": "https://github.com/atul22g-dev/CDN/blob/main/liberies/tailwindcss%403.4.10/min.js",
+        "demo": "https://cdn.jsdelivr.net/gh/atul22g/CDN/liberies/tailwindcss%403.4.10/min.js"
     },
     {
         "name": "FontAwesome6Pro@6.2.0",
-        "src": "https://cdn.jsdelivr.net/gh/atul22g/CDN@latest/liberies/FontAwesome6Pro@6.2.0/css/all.min.css"
+        "src": "https://github.com/atul22g-dev/CDN/tree/main/liberies/FontAwesome6Pro%406.2.0",
+        "demo": "https://cdn.jsdelivr.net/gh/atul22g/CDN@latest/liberies/FontAwesome6Pro@6.2.0/css/all.min.css"
     }
 ]

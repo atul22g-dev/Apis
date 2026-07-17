@@ -16,6 +16,7 @@ interface Item {
   price?: number;
   company?: string;
   category?: string;
+  type?: 'App' | 'demo' | 'database' | 'Pkg';
 }
 
 interface CategoryPageProps {
@@ -64,7 +65,7 @@ export default function CategoryPage({
             <h1 className="text-3xl sm:text-4xl font-bold text-white">{title}</h1>
             <p className="text-white/50 mt-1">{description}</p>
           </div>
-          
+
           {/* Search */}
           <div className="relative w-full sm:w-72">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-white/30" />
@@ -108,9 +109,9 @@ export default function CategoryPage({
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {filteredItems.map((item, index) =>
               renderCard ? (
-                renderCard(item, index)
+                renderCard(item, index) 
               ) : (
-                <DefaultCard key={item.id || index} item={item} index={index} basePath={basePath} />
+                <DefaultCard key={item.id || index} item={item} index={index} />
               )
             )}
           </div>
@@ -120,12 +121,11 @@ export default function CategoryPage({
   );
 }
 
-function DefaultCard({ item, index, basePath }: { item: Item; index: number; basePath: string }) {
+function DefaultCard({ item, index }: { item: Item; index: number}) {
+  console.log(item);
+  
   return (
-    <Link
-      href={item.demo || item.src || '#'}
-      target={item.demo || item.src ? '_blank' : undefined}
-      rel="noopener noreferrer"
+    <span
       className="group relative glass rounded-xl p-5 hover:bg-white/[0.06] transition-all duration-300 hover:scale-[1.02]"
       style={{ animationDelay: `${(index % 6) * 100}ms` }}
     >
@@ -141,10 +141,17 @@ function DefaultCard({ item, index, basePath }: { item: Item; index: number; bas
         </div>
       )}
 
-      <h3 className="font-semibold text-white group-hover:text-primary-300 transition-colors">
-        {item.title || item.name}
-      </h3>
-      
+      <div className="flex items-center gap-2">
+        <h3 className="font-semibold text-white group-hover:text-primary-300 transition-colors">
+          {item.title || item.name}
+        </h3>
+        {item.type && item.type !== 'demo' && (
+          <span className="px-2 py-0.5 rounded-full text-[10px] font-medium uppercase tracking-wider bg-white/10 text-white/60 border border-white/10">
+            {item.type}
+          </span>
+        )}
+      </div>
+
       {item.desc && (
         <p className="text-sm text-white/40 mt-1 line-clamp-2">{item.desc}</p>
       )}
@@ -158,19 +165,29 @@ function DefaultCard({ item, index, basePath }: { item: Item; index: number; bas
 
       <div className="flex items-center gap-2 mt-3">
         {item.demo && (
-          <span className="flex items-center gap-1 text-xs text-white/30 group-hover:text-white/60 transition-colors">
+          <Link
+            href={item.demo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1 text-xs text-white/30 group-hover:text-white/60 transition-colors"
+          >
             <ExternalLink className="w-3 h-3" />
-            Demo
-          </span>
+            {item.type === 'App' ? 'Download' : item.type === 'database' ? 'Status' : item.type === 'Pkg' ? "Package" : "Demo"}
+          </Link>
         )}
-        {item.src && (
-          <span className="flex items-center gap-1 text-xs text-white/30 group-hover:text-white/60 transition-colors">
+        {item.src  && (
+          <Link
+            href={item.src}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1 text-xs text-white/30 group-hover:text-white/60 transition-colors"
+          >
             <Github className="w-3 h-3" />
             Source
-          </span>
+          </Link>
         )}
       </div>
-    </Link>
+    </span>
   );
 }
 

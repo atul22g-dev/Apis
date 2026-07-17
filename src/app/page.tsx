@@ -66,7 +66,7 @@ function HomeContent() {
               Explore Categories
             </Link>
             <a
-              href="https://github.com/atul22g-dev"
+              href="https://github.com/atul22g-dev/Apis-atual-dev"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 rounded-xl glass glass-hover text-white/80 font-medium flex items-center gap-2 transition-all active:scale-95"

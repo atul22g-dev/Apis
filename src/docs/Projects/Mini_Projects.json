@@ -255,7 +255,7 @@
         "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
         "img": "https://64.media.tumblr.com/ed64e22641f381aab4304060c1a043f3/f2cf1e36c65315fb-f4/s2048x3072/6283ce2c84757d20376bc45d32405b7a4afd0c8c.pnj"
     },
-        {
+    {
         "id": 33,
         "title": "animation-website-gsap",
         "desc": "animation-website-gsap",
@@ -360,12 +360,28 @@
         "img": "https://64.media.tumblr.com/a867a8edc151c3bebf05d8343585bda5/571d0159cd0cdb54-73/s640x960/c8135adf1b3a5af55104c27b00915459fecc3a62.pnj"
     },
     {
+        "id": "46",
+        "title": "iMoviearea",
+        "src": "https://github.com/atul22g-dev/iMoviearea",
+        "demo": "https://atul22g-imoviearea.netlify.app/",
+        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
+        "img": "https://64.media.tumblr.com/24e8dd39e3531ec32a698a388e7e525e/5403e37e980fa273-f6/s640x960/62e8a4b0f590e3a685efe70b82ed56c677f0aa0c.pnj"
+    },
+    {
         "id": 47,
         "title": "animation-website-gsap2",
         "desc": "animation-website-gsap2",
         "src": "https://github.com/atul22g-dev/animation-website-gsap2",
         "demo": "https://animation-website-gsap2.netlify.app",
         "img": "https://64.media.tumblr.com/d19ea3cd9e01f362f24923e2973876c7/f7cd244b74e04b30-20/s640x960/87c65973c5fad56d3d3e41fdc711e1b04c65b687.pnj"
+    },
+    {
+        "id": "48",
+        "title": "YouTube-clone",
+        "demo": "https://atul22g-youtube.netlify.app",
+        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
+        "src": "https://github.com/atul22g-dev/YouTube-clone",
+        "img": "https://64.media.tumblr.com/5653e682fdf72fff69461d2a1620264a/ae9271628fc3f833-d2/s640x960/eccb67bbc3122eabaea54adaff34d93e2719679d.pnj"
     },
     {
         "id": 49,
@@ -430,5 +446,69 @@
         "src": "https://github.com/atul22g-dev/Simple-Interest-Calculator",
         "demo": "https://simple-interest-calculator-atual-dev.vercel.app/",
         "img": "https://64.media.tumblr.com/608fa877be29325a05b2867e51773b5f/8fcd0724b5949cda-59/s1280x1920/c1e394e098c467ef3818befd167b0bd81d67c51f.pnj"
+    },
+    {
+        "id": "57",
+        "title": "web-skills",
+        "src": "https://github.com/atul22g-dev/web-skills",
+        "demo": "https://atugatran-webskills.netlify.app",
+        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
+        "img": "https://64.media.tumblr.com/a13dbb974bbc0605b06f08528246e8a8/99eb3ba511970ab3-4d/s640x960/8c607d7bc0041185a7ff5829e97f5a9d22d7bb2c.pnj"
+    },
+    {
+        "id": "58",
+        "title": "Apple-clone",
+        "src": "https://github.com/atul22g-dev/Apple-clone",
+        "demo": "https://atul22g-apple.netlify.app",
+        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
+        "img": "https://64.media.tumblr.com/2fe94de04387e0ca226f185c5b5d928e/752a1cfb2a17ba09-af/s640x960/0a1069713d1a3d72f24e5f7932be935e6908b61f.jpg"
+    },
+        {
+        "id": "59",
+        "title": "iCoder",
+        "src": "https://github.com/atul22g-dev/iCoder",
+        "demo": "https://atul22g-icoder.netlify.app/",
+        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
+        "img": "https://64.media.tumblr.com/917c23d8dac05c63c0705f0f54a573a5/d47860b1b552c1b2-13/s640x960/1e5974ef1cf812e8240f3f874763f9e92fbcdec2.pnj"
+    },
+        {
+        "id": "60",
+        "title": "Portfolio2",
+        "src": "https://github.com/atul22g-dev/Portfolio2",
+        "demo": "https://atul22g-portfolio2.netlify.app/",
+        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
+        "img": "https://64.media.tumblr.com/1bf5391e33ed3e71cf83bf23dfba4287/24d2f4ae3593f069-1f/s640x960/5b75161efa343988d4fcfaf3cbb9ee93fe907150.pnj"
+    },
+        {
+        "id": "61",
+        "title": "Portfolio3",
+        "src": "https://github.com/atul22g-dev/Portfolio3",
+        "demo": "https://atul22g-portfolio3.netlify.app/",
+        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
+        "img": "https://64.media.tumblr.com/ea4dcabfb715c981c6449f0c9d7f4525/c72f96fa19ca0c12-58/s640x960/e940d618fcd478793b69e667ca2255bee6f21aee.pnj"
+    },
+        {
+        "id": "62",
+        "title": "TextUtils",
+        "src": "https://github.com/atul22g-dev/TextUtils",
+        "demo": "https://text-utils-atul22g-dev.vercel.app/",
+        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
+        "img": "https://64.media.tumblr.com/0a434712d993196f660f8a41f68e82dc/d2cddefbcd9184c7-37/s1280x1920/9d50be9f6a044766bfd571e3daad4e817e6a7910.jpg"
+    },
+    {
+        "id": "63",
+        "title": "Phone",
+        "src": "https://github.com/atul22g-dev/Phone",
+        "demo": "https://phone-atul22g-dev.vercel.app/",
+        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
+        "img": "https://64.media.tumblr.com/869927d77ed9bc602413ed105ede316c/dd18891140822d1f-28/s640x960/7f9fa06cb50d5267adf179c84a3a8e807f7fcb1f.pnj"
+    },
+    {
+        "id": "64",
+        "title": "Shinchan",
+        "src": "https://github.com/atul22g-dev/Shinchan",
+        "demo": "https://atul22g-shinchan.netlify.app/",
+        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
+        "img": "https://64.media.tumblr.com/403f2c7c62f2ead1b89a3d1785c8954f/639bca8db78f240d-90/s1280x1920/f15ba94f17a3f2ccbce88ab0dad886abadbd7808.pnj"
     }
 ]

@@ -27,11 +27,11 @@ const dataMap: Record<string, { data: any[]; transform?: (item: any) => any }> =
   'incomplete-projects': { data: incompleteProjects },
   mongodb: {
     data: mongodbProjects,
-    transform: (p: any) => ({ id: p.name, title: p.name, name: p.name, desc: `Health: ${p['db-check']}`, src: p['db-check'], demo: p.status }),
+    transform: (p: any) => ({ id: p.name, title: p.name, name: p.name, desc: `Health: ${p['db-check']}`, demo: p.status, type: p.type }),
   },
   packages: {
     data: packages,
-    transform: (p: any) => ({ id: p.name, title: p.name, name: p.name, src: p.src }),
+    transform: (p: any) => ({ id: p.name, title: p.name, name: p.name, src: p.src, demo: p.demo, type: p.type }),
   },
 };
 

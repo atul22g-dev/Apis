@@ -1,10 +1,14 @@
 [
     {
-        "name": "fontawesome6pro",
-        "src": "https://www.npmjs.com/package/fontawesome6pro"
+        "name": "Fontawesome6pro",
+        "type": "Pkg",
+        "demo": "https://www.npmjs.com/package/fontawesome6pro",
+        "src": "https://github.com/atul22g-dev/CDN/tree/main/liberies/FontAwesome6Pro%406.2.0"
     },
     {
-        "name": "create-new-project",
-        "src": "https://www.npmjs.com/package/@atul.dev/create-new-project"
+        "name": "Create-New-Project",
+        "type": "Pkg",
+        "demo": "https://www.npmjs.com/package/@atul.dev/create-new-project",
+        "src": "https://github.com/atul22g-dev/create-new-project"
     }
 ]

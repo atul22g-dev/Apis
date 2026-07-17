@@ -96,12 +96,14 @@ export interface Wallpaper {
 
 export interface Cdn {
   name: string;
-  src: string;
+  src?: string;
+  demo?: string;
 }
 
 export interface Package {
   name: string;
   src: string;
+  demo: string;
 }
 
 export interface MongoDBProject {
