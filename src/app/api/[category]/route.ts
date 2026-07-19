@@ -19,7 +19,6 @@ const dataMap: Record<string, any[]> = {
   wallpapers,
   unfinished: unfinishedProjects,
   database: DatabaseProjects,
-  mongodb: DatabaseProjects,
   packages,
   index: [],
 };
