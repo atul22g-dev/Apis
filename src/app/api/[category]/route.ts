@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import {
   frontendProjects, landingPageProjects, libraries, movies, products,
   fullstackProjects, repositories, apps, cdns, wallpapers,
-  unfinishedProjects, mongodbProjects, packages,
+  unfinishedProjects, DatabaseProjects, packages,
 } from '@/lib/data';
 import { validateAuth, unauthorizedResponse, isRouteProtected } from '@/lib/auth';
 
@@ -18,7 +18,7 @@ const dataMap: Record<string, any[]> = {
   cdns,
   wallpapers,
   unfinished: unfinishedProjects,
-  mongodb: mongodbProjects,
+  database: DatabaseProjects,
   packages,
   index: [],
 };

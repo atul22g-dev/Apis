@@ -18,5 +18,11 @@
         "name": "FontAwesome6Pro@6.2.0",
         "src": "https://github.com/atul22g-dev/CDN/tree/main/liberies/FontAwesome6Pro%406.2.0",
         "demo": "https://cdn.jsdelivr.net/gh/atul22g/CDN@latest/liberies/FontAwesome6Pro@6.2.0/css/all.min.css"
+    },
+    {
+        "name": "FontAwesome6Pro",
+        "src": "https://github.com/atul22g-dev/CDN/tree/main/liberies/Fontawesome6Pro",
+        "demo": "https://cdn.jsdelivr.net/gh/atul22g/CDN@latest/liberies/Fontawesome6Pro/css/all.min.css"
     }
+
 ]

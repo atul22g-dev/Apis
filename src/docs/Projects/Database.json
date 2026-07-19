@@ -2,25 +2,36 @@
     {
         "name": "RestAPI",
         "type": "database",
+        "db": "mongoDb",
         "db-check": "https://rest-api-atul22g-dev.vercel.app/api/db-heartbeat",
         "status": "https://rest-api-atul22g-dev.vercel.app/api/status"
     },
     {
         "name": "MEHBN",
         "type": "database",
+        "db": "mongoDb",
         "db-check": "https://mehbn.vercel.app/api/db-heartbeat",
         "status": "https://mehbn.vercel.app/api/status"
     },
     {
         "name": "MernCrud",
         "type": "database",
+        "db": "mongoDb",
         "db-check": "https://mern-crud-backend-atul22g-dev.vercel.app/api/db-heartbeat",
         "status": "https://mern-crud-backend-atul22g-dev.vercel.app/api/status"
     },
     {
         "name": "MernDashboard",
         "type": "database",
+        "db": "mongoDb",
         "db-check": "https://mern-dashboard-backend-atul22g-dev.vercel.app/api/db-heartbeat",
         "status": "https://mern-dashboard-backend-atul22g-dev.vercel.app/api/status"
+    },
+    {
+        "name": "GraphQl-SQL",
+        "type": "database",
+        "db": "PostgresSQL",
+        "db-check": "https://graphql-crud-backend.vercel.app/api/db-heartbeat",
+        "status": "https://graphql-crud-backend.vercel.app/api/status"
     }
 ]

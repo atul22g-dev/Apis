@@ -26,7 +26,7 @@ const categoryColors: Record<string, { bg: string; border: string; glow: string 
   'cdns': { bg: 'from-fuchsia-500/20 to-pink-500/10', border: 'border-fuchsia-500/30', glow: 'group-hover:shadow-fuchsia-500/25' },
   'wallpapers': { bg: 'from-pink-500/20 to-rose-500/10', border: 'border-pink-500/30', glow: 'group-hover:shadow-pink-500/25' },
   unfinished: { bg: 'from-orange-500/20 to-red-500/10', border: 'border-orange-500/30', glow: 'group-hover:shadow-orange-500/25' },
-  'mongodb': { bg: 'from-teal-500/20 to-emerald-500/10', border: 'border-teal-500/30', glow: 'group-hover:shadow-teal-500/25' },
+  'database': { bg: 'from-teal-500/20 to-emerald-500/10', border: 'border-teal-500/30', glow: 'group-hover:shadow-teal-500/25' },
   'packages': { bg: 'from-stone-500/20 to-neutral-500/10', border: 'border-stone-500/30', glow: 'group-hover:shadow-stone-500/25' },
 };
 

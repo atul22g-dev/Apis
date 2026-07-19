@@ -103,7 +103,7 @@ export default function LoginPage() {
 
           <div className="mt-6 pt-6 border-t border-white/5">
             <p className="text-base text-white text-center">
-              Made with ❤️ by <a href="https://github.com/atual-dev" target="_blank" rel="noopener noreferrer" className="text-primary-500 hover:underline">Atul</a>
+              Made with ❤️ by <a href="https://github.com/atual-dev" target="_blank" rel="noopener noreferrer" className="text-primary-500 hover:underline">Atual</a>
             </p>
           </div>
         </div>
