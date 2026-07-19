@@ -4,7 +4,7 @@ import {
   categories,
   frontendProjects, landingPageProjects, libraries, movies, products,
   fullstackProjects, repositories, apps, cdns, wallpapers,
-  unfinishedProjects, mongodbProjects, packages,
+  unfinishedProjects, DatabaseProjects, packages,
 } from '@/lib/data';
 import CategoryPage from '@/components/CategoryPage';
 import MoviesPageComponent from '@/components/MoviesPage';
@@ -24,9 +24,9 @@ const dataMap: Record<string, { data: any[]; transform?: (item: any) => any }> =
   cdns: { data: cdns, transform: (c: any) => ({ ...c, id: c.name }) },
   wallpapers: { data: wallpapers },
   unfinished: { data: unfinishedProjects },
-  mongodb: {
-    data: mongodbProjects,
-    transform: (p: any) => ({ id: p.name, title: p.name, name: p.name, desc: `Health: ${p['db-check']}`, demo: p.status, type: p.type }),
+  database: {
+    data: DatabaseProjects,
+    transform: (p: any) => ({ id: p.name, title: p.name, name: p.name, db: p.db, desc: `Health: ${p['db-check']}`, demo: p.status, type: p.type }),
   },
   packages: {
     data: packages,
@@ -56,10 +56,13 @@ function CategoryContent({ slug }: { slug: string }) {
 
   // Look up category info
   const cat = categories.find(c => c.slug === slug);
+  console.log(cat);
+
   if (!cat) notFound();
 
   // Look up data
   const entry = dataMap[slug];
+
   if (!entry) notFound();
 
   const items = entry.transform ? entry.data.map(entry.transform) : entry.data;

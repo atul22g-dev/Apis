@@ -10,7 +10,7 @@ import appData from '@/docs/Projects/App.json';
 import cdnsData from '@/docs/Projects/Cdns.json';
 import wallpapersData from '@/docs/Wallpapers/index.json';
 import unfinishedData from '@/docs/Projects/Unfinished.json';
-import mongodbData from '@/docs/Projects/MongoDB.json';
+import DatabaseData from '@/docs/Projects/Database.json';
 import packagesData from '@/docs/Projects/Packages.json';
 
 // Types
@@ -105,10 +105,11 @@ export interface Package {
   demo: string;
 }
 
-export interface MongoDBProject {
+export interface DatabaseProject {
   name: string;
   'db-check': string;
   status: string;
+  db: string;
 }
 
 export interface AuthConfig {
@@ -154,7 +155,7 @@ export const repositories = repositoriesData as Project[];
 export const apps = appData as Project[];
 export const cdns = cdnsData as Cdn[];
 export const unfinishedProjects = unfinishedData as Project[];
-export const mongodbProjects = mongodbData as MongoDBProject[];
+export const DatabaseProjects = DatabaseData as DatabaseProject[];
 export const packages = packagesData as Package[];
 
 // Auth documentation (without exposing actual secrets)
@@ -292,12 +293,12 @@ export const categories: CategoryInfo[] = [
     color: '#f97316'
   },
   {
-    id: 'mongodb',
-    name: 'MongoDB',
-    slug: 'mongodb',
-    description: 'MongoDB database projects',
+    id: 'database',
+    name: 'Database',
+    slug: 'database',
+    description: 'database Healh Status',
     icon: 'Database',
-    count: mongodbProjects.length,
+    count: DatabaseProjects.length,
     color: '#14b8a6'
   },
   {

@@ -38,5 +38,13 @@
         "demo": "https://atul-dev-dashboard.freedev.app/",
         "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
         "img": "https://64.media.tumblr.com/3cd527ced2c990f034d0f7873a001da9/62cb33654456aadb-87/s640x960/c1ebfd58c96a465c4eac5b6892fc43744ab7196e.pnj"
+    },
+        {
+        "id": 6,
+        "title": "GraphQl-crud",
+        "src": "https://github.com/atul22g-dev/GraphQl-crud/",
+        "demo": "https://graphql-crud-atual-dev.vercel.app/",
+        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
+        "img": "https://64.media.tumblr.com/2c79fa54eac014f55820f1552ed3262c/7b12f065eb1ce6ca-3e/s640x960/0c839d1b30cfcecc101cc37ce6ac254742255398.pnj"
     }
 ]

@@ -17,6 +17,7 @@ interface Item {
   company?: string;
   category?: string;
   type?: 'App' | 'demo' | 'database' | 'Pkg';
+  db?: string;
 }
 
 interface CategoryPageProps {
@@ -147,7 +148,7 @@ function DefaultCard({ item, index }: { item: Item; index: number}) {
         </h3>
         {item.type && item.type !== 'demo' && (
           <span className="px-2 py-0.5 rounded-full text-[10px] font-medium uppercase tracking-wider bg-white/10 text-white/60 border border-white/10">
-            {item.type}
+            {item.type ===  "database" ? item.db : item.type}
           </span>
         )}
       </div>
