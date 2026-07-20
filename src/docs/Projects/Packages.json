@@ -4,11 +4,5 @@
         "type": "Pkg",
         "demo": "https://www.npmjs.com/package/fontawesome6pro",
         "src": "https://github.com/atul22g-dev/CDN/tree/main/liberies/FontAwesome6Pro%406.2.0"
-    },
-    {
-        "name": "Create-New-Project",
-        "type": "Pkg",
-        "demo": "https://www.npmjs.com/package/@atul.dev/create-new-project",
-        "src": "https://github.com/atul22g-dev/create-new-project"
     }
 ]
