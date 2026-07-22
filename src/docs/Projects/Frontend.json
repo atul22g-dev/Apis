@@ -62,5 +62,13 @@
         "demo": "https://atual-dev-youtube-clone2.vercel.app/",
         "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
         "img": "https://64.media.tumblr.com/0fa82954dcbf85c23ae98236e30fa369/e2ec149c24309d12-58/s2048x3072/b0e925221bfc752f6e04f4199fd39c8f33256ff6.pnj"
+    },
+    {
+        "id": 17,
+        "title": "Spotify-clone",
+        "src": "https://github.com/atul22g-dev/Spotify-clone",
+        "demo": "https://spotify-clone-atual-dev.vercel.app/",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis officiis molestiae, dolorum, perferendis iure repellendus excepturi quam voluptates quis fugiat facere vel. Maiores possimus amet obcaecati, quisquam fugit molestias!",
+        "img": "https://64.media.tumblr.com/49d17e29cb198d28334683b9f2741f09/d21c672aaec219d5-e3/s1280x1920/6dcc3c83473b33fda58eddb15e94d9e5596b3bc0.pnj"
     }
 ]
