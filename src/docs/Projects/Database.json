@@ -33,5 +33,12 @@
         "db": "PostgresSQL",
         "db-check": "https://graphql-crud-backend.vercel.app/api/db-heartbeat",
         "status": "https://graphql-crud-backend.vercel.app/api/status"
+    },
+    {
+        "name": "CardCraft",
+        "type": "database",
+        "db": "AppWrite",
+        "db-check": "https://atual-dev-card.vercel.app/health",
+        "status": "https://atual-dev-card.vercel.app/api/status"
     }
 ]
