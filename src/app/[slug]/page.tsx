@@ -4,12 +4,13 @@ import {
   categories,
   frontendProjects, landingPageProjects, libraries, movies, products,
   fullstackProjects, repositories, apps, cdns, wallpapers,
-  unfinishedProjects, DatabaseProjects, packages,
+  unfinishedProjects, DatabaseProjects, packages, songs,
 } from '@/lib/data';
 import CategoryPage from '@/components/CategoryPage';
 import MoviesPageComponent from '@/components/MoviesPage';
 import ProductsPageComponent from '@/components/ProductsPage';
 import WallpapersPageComponent from '@/components/WallpapersPage';
+import SongsPageComponent from '@/components/SongsPage';
 import AuthGuard from '@/components/AuthGuard';
 
 const dataMap: Record<string, { data: any[]; transform?: (item: any) => any }> = {
@@ -32,12 +33,17 @@ const dataMap: Record<string, { data: any[]; transform?: (item: any) => any }> =
     data: packages,
     transform: (p: any) => ({ id: p.name, title: p.name, name: p.name, src: p.src, demo: p.demo, type: p.type }),
   },
+  songs: {
+    data: songs,
+    transform: (s: any) => ({ id: s.id, name: s.Name, title: s.Name, src: s.src, demo: s.data }),
+  },
 };
 
 const customPages: Record<string, React.ComponentType> = {
   movies: MoviesPageComponent,
   products: ProductsPageComponent,
   wallpapers: WallpapersPageComponent,
+  songs: SongsPageComponent,
 };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {

@@ -9,9 +9,9 @@ import { NextRequest, NextResponse } from 'next/server';
  */
 function getCorsConfig() {
   return {
-    allowedOrigins: (process.env.CORS_ORIGIN || '*').split(',').map(s => s.trim()),
-    allowedMethods: (process.env.CORS_METHODS || 'GET,POST,OPTIONS').split(',').map(s => s.trim()),
-    allowedHeaders: (process.env.CORS_HEADERS || 'Content-Type,Authorization,X-API-Key').split(',').map(s => s.trim()),
+    allowedOrigins: ('*').split(',').map(s => s.trim()),
+    allowedMethods: ('GET,POST,OPTIONS').split(',').map(s => s.trim()),
+    allowedHeaders: ('Content-Type,Authorization,X-API-Key').split(',').map(s => s.trim()),
   };
 }
 

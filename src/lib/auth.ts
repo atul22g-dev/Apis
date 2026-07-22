@@ -15,7 +15,7 @@ export function isRouteProtected(pathname: string): boolean {
     '/api/frontend', '/api/landing-page', '/api/libraries',
     '/api/movies', '/api/products', '/api/fullstack',
     '/api/repositories', '/api/apps', '/api/cdns',
-    '/api/wallpapers', '/api/unfinished',
+    '/api/wallpapers', '/api/songs', '/api/unfinished',
     '/api/database', '/api/packages', '/api/index',
   ];
   return protectedRoutes.includes(pathname);

@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import {
   ArrowUpRight, BookOpen, Construction, Database, Film,
-  FolderCog, GitBranch, Globe, Image, Package, Server, ShoppingBag,
+  FolderCog, GitBranch, Globe, Image, Music, Package, Server, ShoppingBag,
   Smartphone, Zap, BarChart3, Github
 } from 'lucide-react';
 import { categories } from '@/lib/data';
@@ -11,7 +11,7 @@ import AuthGuard from '@/components/AuthGuard';
 
 const iconMap: Record<string, React.ElementType> = {
   FolderCog, Zap, BookOpen, Film, ShoppingBag, Server, GitBranch,
-  Smartphone, Globe, Image, Construction, Database, Package
+  Smartphone, Globe, Image, Construction, Database, Package, Music
 };
 
 const categoryColors: Record<string, { bg: string; border: string; glow: string }> = {
@@ -25,6 +25,7 @@ const categoryColors: Record<string, { bg: string; border: string; glow: string 
   'apps': { bg: 'from-yellow-500/20 to-amber-500/10', border: 'border-yellow-500/30', glow: 'group-hover:shadow-yellow-500/25' },
   'cdns': { bg: 'from-fuchsia-500/20 to-pink-500/10', border: 'border-fuchsia-500/30', glow: 'group-hover:shadow-fuchsia-500/25' },
   'wallpapers': { bg: 'from-pink-500/20 to-rose-500/10', border: 'border-pink-500/30', glow: 'group-hover:shadow-pink-500/25' },
+  'songs': { bg: 'from-rose-500/20 to-red-500/10', border: 'border-rose-500/30', glow: 'group-hover:shadow-rose-500/25' },
   unfinished: { bg: 'from-orange-500/20 to-red-500/10', border: 'border-orange-500/30', glow: 'group-hover:shadow-orange-500/25' },
   'database': { bg: 'from-teal-500/20 to-emerald-500/10', border: 'border-teal-500/30', glow: 'group-hover:shadow-teal-500/25' },
   'packages': { bg: 'from-stone-500/20 to-neutral-500/10', border: 'border-stone-500/30', glow: 'group-hover:shadow-stone-500/25' },
@@ -86,7 +87,7 @@ function HomeContent() {
               { label: 'Categories', value: categories.length, icon: BarChart3, color: 'text-primary-400' },
               { label: 'Total Items', value: totalItems, icon: Database, color: 'text-emerald-400' },
               { label: 'Frontend', value: categories.slice(0, 3).reduce((s, c) => s + c.count, 0), icon: FolderCog, color: 'text-amber-400' },
-              { label: 'Media', value: categories.find(c => c.id === 'movies')!.count + categories.find(c => c.id === 'wallpapers')!.count, icon: Film, color: 'text-rose-400' },
+              { label: 'Media', value: (categories.find(c => c.id === 'movies')?.count ?? 0) + (categories.find(c => c.id === 'wallpapers')?.count ?? 0) + (categories.find(c => c.id === 'songs')?.count ?? 0), icon: Film, color: 'text-rose-400' },
             ].map((stat, i) => {
               const Icon = stat.icon;
               return (
